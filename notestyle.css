@@ -1,0 +1,130 @@
+h1,
+h2,
+
+footer,
+#timeSection {
+    font-family: cambria;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+
+/* for minigame feature */
+#habitSpin {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    font-size: 12px;
+    /* Fixed height for the input section */
+    overflow-y: auto;
+    /* Enable vertical scroll if needed */
+    width: 15em;
+}
+
+
+#timeSection {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+#input-section {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    /* Fixed height for the input section */
+    overflow-y: auto;
+    /* Enable vertical scroll if needed */
+    width: 25em;
+}
+
+#output-section {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+    /* Enable vertical scroll if needed */
+    width: 45em;
+    /* for random attachment of notes */
+    /* position: relative; */
+}
+
+#noteList {
+    margin-left: 2px;
+    font-family: monospace;
+    list-style-type: none;
+    padding: 0;
+}
+
+.note {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    /* for random attachment of notes */
+    /* position: absolute; */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#prioritySpan {
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+select {
+    background-color: #394655;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#noteBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 9px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#ExportBtn {
+    color: white;
+    background-color: gray;
+}
+
+#noteInput {
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    height: auto;
+    margin-bottom: 8px;
+}

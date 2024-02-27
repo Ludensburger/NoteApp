@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludensberg Notes</title>
+    <link rel="stylesheet" href="notestyle.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Ludensberg Notes</h1>
+    </header>
+
+    <div title="Ryu Gwapo" id="timeSection">
+      Current Time: <span id="currentTime"></span>
+    </div>
+
+    <div class="container">
+      <div id="input-section">
+        <h2>Add</h2>
+        <input type="text" id="noteInput" placeholder="Enter your Note" />
+        <div class="button-container">
+          <button id="noteBtn">Add Note</button>
+          <select name="priority" id="priorityMenu">
+            <option value="0" style="color: green">Low</option>
+            <option value="1" style="color: orange">Medium</option>
+            <option value="2" style="color: red">High</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- add a minigame feature -->
+      <!-- <div id="habitSpin"><h2>Habits</h2></div> -->
+
+      <div id="output-section">
+        <h2>List</h2>
+
+        <button
+          title="Sort by High Priority"
+          id="sortByHigh"
+          style="background-color: red"
+          onclick="sortListByPriority(false)"
+        ></button>
+        <button
+          title="Sort by Low Priority"
+          id="sortByLow"
+          style="background-color: green"
+          onclick=""
+        ></button>
+
+        <button id="ExportBtn" title="Export Notes"></button>
+
+        <ul id="noteList"></ul>
+      </div>
+    </div>
+
+    <footer title="It's a progressive project 😉">
+      <i>Ludensberg Notes by Ryu Mendoza</i>
+    </footer>
+  </body>
+
+  <script src="myScript.js"></script>
+</html>
